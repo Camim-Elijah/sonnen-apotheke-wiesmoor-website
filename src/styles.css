@@ -17,3 +17,7 @@ dialog{border:0;border-radius:12px;color:var(--ink);background:var(--paper);padd
 @media(max-width:350px){.official-wordmark{width:180px}.header .cart-toggle{gap:7px}.brand-list .brand-logo{width:88px}}
 
 .product-brand{display:flex;align-items:center;gap:6px}.product-brand .nomosan-mark{width:17px;height:17px;object-fit:contain;flex-shrink:0}
+
+/* Einheitliche skalierbare Linienicons statt plattformabhängiger Emoji-Zeichen. */
+.icon{display:inline-block;width:1.1em;height:1.1em;vertical-align:-.15em;fill:none;stroke:currentColor;stroke-width:1.6;stroke-linecap:round;stroke-linejoin:round;flex-shrink:0}.tiny-sun .icon{width:25px;height:25px}.round-seal b{display:flex}.round-seal b .icon{width:46px;height:46px}.service-symbol .icon{width:65px;height:65px}.map-pin{display:grid;place-items:center}.map-pin .icon{width:30px;height:30px}.big-flower .icon{width:100px;height:100px}.add-button{display:grid;place-items:center}.add-button .icon{width:20px;height:20px}.dialog-close{display:grid;place-items:center}.dialog-close .icon{width:23px;height:23px}.success-icon .icon{width:29px;height:29px}.text-link .icon{margin-left:5px;width:16px;height:16px}.cart-empty>span .icon{width:62px;height:62px}
+@media(max-width:560px){.big-flower .icon{width:60px;height:60px}}
